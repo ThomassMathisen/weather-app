@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js" defer></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <main class="main">
+        <form class="form" id="searchForm" novalidate>
+            <input class="input" id="searchInput" type="text" placeholder="Search city">
+            <button class="btn btn-submit" id="searchBtn" type="submit">
+                Search
+            </button>
+        </form>
+
+        <div class="search-result" id="searchResult">
+            <h3 id="cityName"></h3><h3 id="countryName"></h3>
+            <p id="description"></p>
+            <p id="temperature"></p>
+            <p id="feelsLike"></p>
+            <p id="humidity"></p>
+            <p id="wind"></p>
+        </div>
+    </main>
+    
+</body>
+</html>
